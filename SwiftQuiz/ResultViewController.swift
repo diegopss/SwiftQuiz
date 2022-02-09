@@ -25,9 +25,15 @@ class ResultViewController: UIViewController {
         lbCorrect.text = "Perguntas corretas: \(totalCorrectAnswers)"
         lbWrong.text = "Perguntas erradas: \(totalAnswers - totalCorrectAnswers)"
         
+        if totalAnswers <= 0 {
+            lbScore.text = "0%"
+        } else{
+        
         let score = totalCorrectAnswers*100/totalAnswers
         lbScore.text = "\(score)%"
-    }
+     
+        }
+        }
     
 
     @IBAction func close(_ sender: UIButton) {
