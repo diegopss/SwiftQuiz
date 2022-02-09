@@ -28,7 +28,7 @@ class QuizManager {
                      options: ["Nada", "printSomething()", "Adoro funções", "Erro"]),
             (question: "Quando não declaramos o tipo de retorno de uma função, qual é o retorno padrão?", correctAnswer: "Void",
              options: ["Void", "Int", "String", "nil"]),
-            (question: "Qual é a sintaxe correta para declarar um parâmetro?", correctAnswer: "resposta correta",
+            (question: "Qual é a sintaxe correta para declarar um parâmetro?", correctAnswer: "func myFunc(message: String) {}",
              options: ["func myFunc(String message) {}", "func myFunc(let message = String) {}", "func myFunc(message String) {}", "func myFunc(message: String) {}"]),
             
             (question: "Qual é o tipo de uma variavél String que pode aceitar nil?", correctAnswer: "String?",
